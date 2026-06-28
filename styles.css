@@ -4,6 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700;800&family=Space+Mono:wght@400;700&display=swap");
 
+html,
+body {
+  overflow-x: hidden;
+}
 :root {
   /* COLORS */
 
@@ -840,39 +844,39 @@ RESPONSIVE
 RIGHT
 ==================================== */
 
-.hero-right{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-image{
-    width:100%;
-    max-width:560px;
+.hero-image {
+  width: 100%;
+  max-width: 560px;
 
-    border-radius:28px;
-    overflow:hidden;
+  border-radius: 28px;
+  overflow: hidden;
 
-    box-shadow:0 35px 70px rgba(0,0,0,.28);
+  box-shadow: 0 35px 70px rgba(0, 0, 0, 0.28);
 
-    transition:
-        transform .45s ease,
-        box-shadow .45s ease;
+  transition:
+    transform 0.45s ease,
+    box-shadow 0.45s ease;
 }
 
-.hero-image:hover{
-    transform:translateY(-10px);
-    box-shadow:0 45px 90px rgba(0,0,0,.35);
+.hero-image:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 45px 90px rgba(0, 0, 0, 0.35);
 }
 
-.hero-image img{
-    width:100%;
-    display:block;
-    transition:transform .8s ease;
+.hero-image img {
+  width: 100%;
+  display: block;
+  transition: transform 0.8s ease;
 }
 
-.hero-image:hover img{
-    transform:scale(1.04);
+.hero-image:hover img {
+  transform: scale(1.04);
 }
 
 /* Floating card */
@@ -2235,22 +2239,21 @@ footer {
 .detail-close {
   position: absolute;
 
-    top: 25px;
-    right: 20px;
-    padding: 14px 28px;
-    border-radius: 999px;
-    background: transparent;
-    color: var(--gold);
-    font-weight: 700;
-    border: 1px solid var(--gold);
-
+  top: 25px;
+  right: 20px;
+  padding: 14px 28px;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--gold);
+  font-weight: 700;
+  border: 1px solid var(--gold);
 }
 
 .detail-close:hover {
   background: var(--primary);
 
-    color: white;
-    transform: translateY(-3px);
+  color: white;
+  transform: translateY(-3px);
 }
 
 .detail-label {
@@ -2378,12 +2381,12 @@ footer {
 
 .detail-buttons .btn-outline {
   flex: 1;
-    padding: 14px 28px;
-    border-radius: 999px;
-    background: transparent;
-    color: var(--gold);
-    font-weight: 700;
-    border: 1px solid var(--gold);
+  padding: 14px 28px;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--gold);
+  font-weight: 700;
+  border: 1px solid var(--gold);
 }
 
 .detail-buttons .btn-accent:hover {
