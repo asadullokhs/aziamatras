@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azia Matras — Premium Sleep Systems</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=300;400;500;600;700&family=Space+Mono:wght=400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <span data-t="brand">AZIA MATRAS</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home" data-t="nav_about">Home</a></li>
+        <li><a href="#products" data-t="nav_products">Products</a></li>
+        <li><a href="#why" data-t="nav_about">Why Us</a></li>
+        <li><a href="#reviews" data-t="testi_title">Reviews</a></li>
+        <li><a href="#contact" data-t="nav_contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="lang-switcher">
+          <button class="lang-btn active" onclick="setLang('uz')">UZ</button>
+          <button class="lang-btn" onclick="setLang('ru')">RU</button>
+          <button class="lang-btn" onclick="setLang('en')">EN</button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero-left">
+        <div class="label" data-t="hero_tag">Premium Sleep Collection</div>
+
+        <h1 data-t="hero_h1">Experience Better <span>Sleep.</span></h1>
+
+        <p data-t="hero_desc">
+          Azia Matras creates luxury mattresses combining modern orthopedic
+          technology, premium materials and timeless craftsmanship for healthier
+          sleep.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#products" class="btn btn-primary" data-t="hero_cta1"
+            >Explore Collection</a
+          >
+          <a href="#why" class="btn btn-outline" data-t="hero_cta2"
+            >Learn More</a
+          >
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <h3>10K+</h3>
+            <span data-t="stat1">Happy Customers</span>
+          </div>
+
+          <div class="hero-stat">
+            <h3>10</h3>
+            <span data-t="stat3">Years Warranty</span>
+          </div>
+
+          <div class="hero-stat">
+            <h3>100</h3>
+            <span data-t="stat2">Night Trial</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-image">
+          <img src="assets/three.jpeg" alt="Luxury Mattress" />
+        </div>
+
+      
+      </div>
+    </section>
+
+    <section class="why" id="why">
+      <div class="why-image">
+        <img src="assets/why.jpeg" alt="Luxury Mattress" />
+      </div>
+
+      <div class="why-content">
+        <div class="label" data-t="hero_cta2">Why Choose Us</div>
+        <h2 data-t="feat_title">Crafted For The Best Sleep Experience</h2>
+        <p data-t="hero_desc">
+          Every Azia mattress is carefully engineered with premium orthopedic
+          support.
+        </p>
+
+        <div class="why-list">
+          <div class="why-item">
+            <div class="why-icon">🌿</div>
+            <div>
+              <h4 data-t="f1t">Natural Materials</h4>
+              <p data-t="f1d">
+                Organic fabrics and eco-friendly certified foam ensure healthier
+                sleep.
+              </p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon">🛡</div>
+            <div>
+              <h4 data-t="f2t">10 Year Warranty</h4>
+              <p data-t="f2d">
+                Every mattress is protected with long-term quality assurance.
+              </p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon">💤</div>
+            <div>
+              <h4 data-t="f3t">100 Night Trial</h4>
+              <p data-t="f3d">
+                Sleep on it for up to 100 nights. Love it or return it.
+              </p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon">🚚</div>
+            <div>
+              <h4 data-t="f4t">Free Delivery</h4>
+              <p data-t="f4d">
+                Fast and secure delivery throughout Uzbekistan.
+              </p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon">🤝</div>
+            <div>
+              <h4 data-t="f5t">Sleep Experts</h4>
+              <p data-t="f5d">
+                Our specialists help you choose the perfect mattress.
+              </p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon">♻️</div>
+            <div>
+              <h4 data-t="f6t">Eco Friendly</h4>
+              <p data-t="f6d">
+                Sustainable production with environmentally responsible
+                materials.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="products-header">
+        <div class="products-header-left">
+          <h2 data-t="mat_title">Discover Our Premium Mattresses</h2>
+        </div>
+        <a href="#" class="products-link" data-t="mat_link">View All →</a>
+      </div>
+
+      <div class="products-grid">
+        <article class="product-card">
+          <div class="product-image">
+            <img src="assets/hero1.jpeg" alt="Cloud Soft" />
+          </div>
+          <div class="product-content">
+            <h3 class="product-title" data-t="m1n">Cloud Soft</h3>
+            <p class="product-desc" data-t="m1d">
+              Ultra-soft mattress with memory foam.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">
+                <strong data-t="m1p">from $299</strong>
+              </div>
+              <button
+                class="product-btn"
+                onclick="openDetail('cloud')"
+                data-t="view_btn"
+              >
+                View →
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card featured">
+          <div class="product-image">
+            <img src="assets/three.jpeg" alt="Balance Pro" />
+            <div class="product-badge" data-t="popular">Popular</div>
+          </div>
+          <div class="product-content">
+            <h3 class="product-title" data-t="m2n">Balance Pro</h3>
+            <p class="product-desc" data-t="m2d">
+              Our most popular orthopedic mattress.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">
+                <strong data-t="m2p">from $449</strong>
+              </div>
+              <button
+                class="product-btn"
+                onclick="openDetail('balance')"
+                data-t="view_btn"
+              >
+                View →
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="assets/simple.jpg" alt="Firm Earth" />
+          </div>
+          <div class="product-content">
+            <h3 class="product-title" data-t="m3n">Firm Earth</h3>
+            <p class="product-desc" data-t="m3d">
+              Extra support designed for back sleepers.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">
+                <strong data-t="m3p">from $379</strong>
+              </div>
+              <button
+                class="product-btn"
+                onclick="openDetail('firm')"
+                data-t="view_btn"
+              >
+                View →
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonials" id="reviews">
+      <div class="testimonials-header">
+        <h2 data-t="testi_title">What customers say</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <article class="testimonial">
+          <div class="testimonial-text" data-t="t1q">
+            "I've never slept so well..."
+          </div>
+          <div class="testimonial-name" data-t="t1a">Dilnoza — Tashkent</div>
+        </article>
+
+        <article class="testimonial">
+          <div class="testimonial-text" data-t="t2q">
+            "Fast delivery, simple setup..."
+          </div>
+          <div class="testimonial-name" data-t="t2a">Rustam — Samarkand</div>
+        </article>
+
+        <article class="testimonial">
+          <div class="testimonial-text" data-t="t3q">
+            "The 100-night trial gave me confidence..."
+          </div>
+          <div class="testimonial-name" data-t="t3a">Malika — Bukhara</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="cta-content">
+        <h2 data-t="cta_title">Ready for the best sleep of your life?</h2>
+        <p data-t="cta_sub">
+          Free delivery · 100-night trial · 10-year warranty
+        </p>
+        <a href="#products" class="btn btn-primary" data-t="cta_btn"
+          >Shop now</a
+        >
+      </div>
+    </section>
+
+    <div
+      class="detail-overlay"
+      id="detail-overlay"
+      onclick="closeOutside(event)"
+    >
+      <div class="detail-modal">
+        <button class="detail-close" onclick="closeDetail()" data-t="close_btn">
+          ← Back
+        </button>
+
+        <div class="detail-header">
+          <span class="detail-label">Premium Collection</span>
+
+          <h2 id="d-name"></h2>
+
+          <p id="d-tagline"></p>
+
+          <div id="d-price" class="detail-price"></div>
+        </div>
+
+        <div class="detail-content">
+          <div class="detail-section">
+            <h4 data-t="specs_title">Specifications</h4>
+
+            <div id="d-specs"></div>
+          </div>
+
+          <div class="detail-section">
+            <h4 data-t="benefits_title">Benefits</h4>
+
+            <div id="d-benefits"></div>
+          </div>
+        </div>
+
+        <div class="detail-buttons">
+          <button class="btn-accent" data-t="order_btn">Order Now</button>
+
+          <button
+            class="btn-outline"
+            onclick="closeDetail()"
+            data-t="close_btn"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="footer-logo" data-t="brand">AZIA MATRAS</div>
+            <p data-t="hero_tag">
+              Premium sleep systems designed for healthier nights.
+            </p>
+          </div>
+
+          <div class="footer-column">
+            <h4 data-t="nav_products">Products</h4>
+            <ul>
+              <li><a href="#products" data-t="m1n">Cloud Soft</a></li>
+              <li><a href="#products" data-t="m2n">Balance Pro</a></li>
+              <li><a href="#products" data-t="m3n">Firm Earth</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4 data-t="nav_about">Company</h4>
+            <ul>
+              <li><a href="#why" data-t="nav_about">About Us</a></li>
+              <li><a href="#reviews" data-t="testi_title">Reviews</a></li>
+              <li><a href="#contact" data-t="nav_contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4 data-t="nav_contact">Contact</h4>
+            <ul>
+              <li>📍 Tashkent, Uzbekistan</li>
+              <li>☎ +998 90 123 45 67</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p data-t="footer">© 2026 Azia Matras. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+   
+    <script src="./script.js"></script>
+  </body>
+</html>
